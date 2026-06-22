@@ -1,13 +1,13 @@
 package LinkedList;
 import java.util.Scanner;
 
-public class Deletion {
+public class Deletion{
      int data;
         Node next;
         Deletion(int data){
             this.data = data;
         }
-        public static Node removeHead(Node Head) {
+        public static Node removeHead(Node Head){
             if (Head.next == null) return null;
             return Head.next;
 
